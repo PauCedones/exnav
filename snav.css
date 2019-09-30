@@ -5,19 +5,23 @@
 }
 #main-nav li{
     width: 120px;
-    box-sizing: border-box;
-    border: 1px solid black;
+    background-color: pink;
     text-align: center;
     padding: 5px;
 }
 
 .sub-menu{
     position: absolute;
-    top: 31px;
-    left:-41px;
+    top: 28px;
+    right: 1px;
     visibility: hidden;
 }
 
 .menu li:hover .sub-menu{
     visibility: visible;
-}
+    }
+
+.menu li a:hover{
+    background-color: black;
+
+    }
